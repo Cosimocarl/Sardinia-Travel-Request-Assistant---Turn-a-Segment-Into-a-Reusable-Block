@@ -1,0 +1,20 @@
+# Secrets, customer records and runtime state
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+private/
+private-guide/
+exports-raw/
+backups/
+n8n_data/
+.n8n/
+*.sqlite*
+*.db*
+*.log
+*.pem
+*.key
+# Local metadata
+.DS_Store
+.obsidian/
