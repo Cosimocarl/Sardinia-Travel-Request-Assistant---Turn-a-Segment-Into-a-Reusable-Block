@@ -1,0 +1,30 @@
+Executed on 2026-10-27 with Node.js v24.22.1.
+Scope: deterministic JavaScript only; no n8n/Gemini integration or API calls.
+
+PASS normalisation
+PASS blank message
+PASS unknown source
+PASS missing id
+PASS oversized message
+PASS bad timestamp
+PASS wrong input type
+PASS complete route
+PASS clarification route
+PASS review precedence
+PASS impossible calendar date
+PASS invalid group
+PASS empty draft
+PASS malformed JSON
+PASS unknown keys
+PASS string boolean
+PASS fenced JSON
+PASS auth error
+PASS quota error
+PASS network error
+PASS unknown fails conservatively
+PASS forced input error
+PASS safe log excludes original detail
+PASS no record
+PASS ambiguous record
+PASS stable native row id
+26 deterministic checks passed. n8n/Gemini integration is not tested by this script.
